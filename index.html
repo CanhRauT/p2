@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- icon from cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="navbar navbar-expand-md ">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="img/lemonLogo.png" alt="lemon" class="img-fluid" width="50px" height="auto">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Nagivation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--front page-->
+    <section class="text-center mx-3">
+        <div class="container">
+            <div class="d-sm-flex align-items-center">
+                <div>
+                    <h1>Hi! I'm Thy, a CS student that enjoys lemonade</h1>
+                </div>
+                <img class="img-fluid w-50" src="img/lemon.jpg" alt="lemon">
+            </div>
+        </div>
+    </section>
+    <!-- Courses-->
+    <section class="courses p-5">
+        <div class="container">
+            <div class="row text-center align-items-stretch">
+                <div class="col">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Classes
+                            </h3>
+                            <ul class="card text" style="text-align: left;">
+                                <li>programming 1,2</li>
+                                <li>Logic Design</li>
+                                <li>Computer Architecture</li>
+                                <li>Intro to Internet Computing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Program languages
+                            </h3>
+                            <ul class="card text" style="text-align: left;">
+                                <li>Html/CSS/Bootstrap</li>
+                                <li>Python</li>
+                                <li>Javascript</li>
+                                <li>C++</li>
+                                <li>C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-heart"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Interest
+                            </h3>
+                            <ul class="card text" style="text-align: left;">
+                                <li>cooking recipes</li>
+                                <li>walking</li>
+                                <li>nature</li>
+                                <li>art</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div><h2>Mini gallery</h2></div>
+            <div id="miniCarousel" class="carousel slide" data-bs-slide="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#miniCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#miniCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#miniCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active c-item">
+                    <img src="img/cat_drawing.png" class="d-block w-100 c-img" alt="cat_drawing">
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img src="img/flowerPot.JPG" class="d-block w-100 c-img" alt="flower pot">
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img src="img/lemonade.jpg" class="d-block w-100 c-img" alt="lemonade">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#miniCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#miniCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </div>
+        
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div><h2 class="text-center">Let's get in touch!</h2>  </div>
+                <form>
+                    <div class="form-floating">
+                        <input type="email" id="email" class="form-control "
+                        placeholder="Place email here" >
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" id="name" class="form-control "
+                        placeholder="Place name here" >
+                        <label for="name">Name</label>
+                    </div>
+                    <button class="custom-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

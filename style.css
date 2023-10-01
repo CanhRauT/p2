@@ -1,0 +1,38 @@
+.courses{
+    margin-top: 10px;
+    background-color: #FFF36D;
+}
+li{
+    list-style: none;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+.custom-btn {
+    color: #000;
+    border:none;
+    margin-top:10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #FFF36D; 
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.custom-btn:hover {
+    background-color: #ffef02; 
+    color: #000; 
+    text-decoration: none;
+}
+
+.c-item{
+    height:400px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(1);
+}
+
+h2{
+    margin-top: 10px;
+}
